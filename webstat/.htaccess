@@ -1,7 +1,0 @@
-AuthType Basic
-AuthName "/www/yii.moiseykin.net/webstat"
-AuthUserFile /var/www/sprutik/data/etc/886330.passwd
-DirectoryIndex index.html
-<Limit GET POST>
-	require valid-user
-</Limit>
